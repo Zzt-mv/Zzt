@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 
-# --- 数据集和模型（防体积过大） ---
+# --- 数据集和模型 ---
 data/
 dataset/
 *.pth
@@ -10,7 +10,7 @@ dataset/
 *.weights
 *.h5
 
-# --- 敏感信息和密码（防泄露） ---
+# --- 敏感信息和密码 ---
 .env
 .env.local
 *.pem
